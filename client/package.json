@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "browser": {
+    "vue": "vue/dist/vue.common"
+  },
+  "scripts": {
+    "prestart": "node-sass style/common.scss dist/style.css",
+    "start": "browserify -t vueify -e app.js -o dist/index.js",
+    "poststart": "node-sass style/common.scss dist/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "vue": "^2.1.8",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "vueify": "^9.4.0"
+  }
+}

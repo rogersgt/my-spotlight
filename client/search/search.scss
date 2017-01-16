@@ -1,0 +1,57 @@
+$gray: rgb(244, 240, 240);
+
+#search {
+  padding: 3% 2%;
+  width: 50%;
+  margin: 5% 25%;
+  li {
+    input {
+      width: 98%;
+      padding: 1.5% 1%;
+      font-size: 1rem;
+      outline: none;
+      border-radius: .2rem;
+      border: none;
+      background-color: $gray;
+    },
+    select {
+      width: 100%;
+      font-size: 1.2rem;
+      text-align: center;
+      outline: none;
+      border: none;
+    },
+    button {
+      width: 100%;
+      padding: 1%;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.results {
+  padding: 3%;
+  width: 97%;
+  margin-top: 5%;
+  .v-list {
+    width: 70%;
+    margin: 0% 15%;
+    li {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .contact {
+    background-color: $gray;
+    width: 60%;
+    margin: 0 16%;
+    padding: 2%;
+  }
+}
+
+.backgroundImg {
+  padding: 1% 0% 0% 0%;
+  background-image: url('./lights.jpg');
+  background-size: cover;
+  background-position: center;
+}

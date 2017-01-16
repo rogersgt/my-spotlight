@@ -1,0 +1,10 @@
+#sbmt {
+  background-color: rgb(106, 219, 145);
+  border: none;
+  border-radius: .1rem;
+  color: white;
+  &:hover {
+    background-color: rgb(84, 182, 118);
+    cursor: pointer;
+  }
+}

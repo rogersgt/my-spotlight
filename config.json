@@ -1,0 +1,12 @@
+{
+  "api": {
+    "port": 8080,
+    "client_id": "YRXDCUDESU4QKFDQUEIRSCJM3GXZ4EWEJNTNA0DNKEMURTGV",
+    "client_secret": "PFM5NU0VLMSBCZZG2VDCQEDCH3IDCD2K1R1ML3VBWEK1A30X",
+    "geo_api_key": "AIzaSyC80Zo4bupVmq7p-RUSUkfUybSq6N1TYT0",
+    "encryption": {
+      "key": "LAMENCIEN84MFDJ4MFGF4JSDFFNNSKMFG8"
+    }
+  },
+  "env": "development"
+}

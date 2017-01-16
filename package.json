@@ -1,0 +1,21 @@
+{
+  "name": "spot-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js & cd client && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "http-proxy": "^1.16.2",
+    "jwt-async": "^1.1.2",
+    "mongoose": "^4.7.6",
+    "path": "^0.12.7",
+    "request": "^2.79.0"
+  }
+}

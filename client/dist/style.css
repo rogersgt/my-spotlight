@@ -1,0 +1,87 @@
+#search {
+  padding: 3% 2%;
+  width: 50%;
+  margin: 5% 25%; }
+  #search li input {
+    width: 98%;
+    padding: 1.5% 1%;
+    font-size: 1rem;
+    outline: none;
+    border-radius: .2rem;
+    border: none;
+    background-color: #f4f0f0; }
+  #search li,
+  #search li select {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: none;
+    border: none; }
+  #search li,
+  #search li button {
+    width: 100%;
+    padding: 1%;
+    font-size: 1.2rem; }
+
+.results {
+  padding: 3%;
+  width: 97%;
+  margin-top: 5%; }
+  .results .v-list {
+    width: 70%;
+    margin: 0% 15%; }
+    .results .v-list li {
+      width: 100%;
+      text-align: center; }
+  .results .contact {
+    background-color: #f4f0f0;
+    width: 60%;
+    margin: 0 16%;
+    padding: 2%; }
+
+.backgroundImg {
+  padding: 1% 0% 0% 0%;
+  background-image: url("./lights.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#sbmt {
+  background-color: #6adb91;
+  border: none;
+  border-radius: .1rem;
+  color: white; }
+  #sbmt:hover {
+    background-color: #54b676;
+    cursor: pointer; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #dfdfdf;
+  font-family: 'Comfortaa', cursive; }
+  body h1 {
+    background-color: white;
+    border-bottom: 0.4rem solid #53df61;
+    margin: 0;
+    padding: 1% 5%; }
+    body h1 span {
+      font-size: .9rem;
+      color: #a4a3aa;
+      margin-left: 2%; }
+
+.v-list {
+  padding: 0;
+  margin: 0; }
+  .v-list li {
+    display: block; }
+
+.h-list {
+  padding: 0;
+  margin: 0; }
+  .h-list li {
+    display: inline-block; }
+
+.box {
+  background-color: white;
+  box-shadow: 0 0 0.4rem #4f4b4e;
+  border-radius: .1rem; }
